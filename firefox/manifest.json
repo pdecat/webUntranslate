@@ -1,16 +1,19 @@
 {
   "manifest_version": 2,
-  "name": "redditUntranslate",
-  "version": "1.1",
-  "description": "Automatically redirects Reddit URLs by removing ?tl=xx from the query string.",
+  "name": "Web Untranslate",
+  "version": "1.2",
+  "description": "Automatically redirects URLs by removing translation parameters like Reddit's ?tl=xx and Google Cloud's ?hl=xx.",
   "permissions": [
     "webRequest",
     "webRequestBlocking",
     "tabs",
-    "https://www.reddit.com/*"
+    "https://www.reddit.com/*",
+    "https://cloud.google.com/*"
   ],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": [
+      "background.js"
+    ],
     "persistent": true
   },
   "icons": {
@@ -23,4 +26,3 @@
     }
   }
 }
-
