@@ -29,3 +29,5 @@ yarn.lock
 dist/
 build/
 
+# Ignore Chrome metadata when installing the extension unpackaged
+/chrome/_metadata/

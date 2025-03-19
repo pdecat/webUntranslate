@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- Background circle -->
+  <circle cx="24" cy="24" r="22" fill="#4285F4" />
+  
+  <!-- Globe lines -->
+  <path d="M24,2 C36.1502,2 46,11.8498 46,24 C46,36.1502 36.1502,46 24,46 C11.8498,46 2,36.1502 2,24 C2,11.8498 11.8498,2 24,2 Z" fill="none" stroke="#FFFFFF" stroke-width="1.5" />
+  <path d="M2,24 L46,24" stroke="#FFFFFF" stroke-width="1" />
+  <path d="M24,2 L24,46" stroke="#FFFFFF" stroke-width="1" />
+  <path d="M8,12 Q24,8 40,12" stroke="#FFFFFF" stroke-width="1" fill="none" />
+  <path d="M8,36 Q24,40 40,36" stroke="#FFFFFF" stroke-width="1" fill="none" />
+  
+  <!-- Translation symbol (A→B) -->
+  <text x="14" y="28" font-family="Arial" font-size="12" fill="#FFFFFF">A→B</text>
+  
+  <!-- Red slash -->
+  <line x1="12" y1="36" x2="36" y2="12" stroke="#FF0000" stroke-width="3" />
+</svg>
