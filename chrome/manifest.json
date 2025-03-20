@@ -21,9 +21,14 @@
   "declarative_net_request": {
     "rule_resources": [
       {
-        "id": "ruleset_1",
+        "id": "ruleset_google",
         "enabled": true,
-        "path": "rules.json"
+        "path": "rules-google.json"
+      },
+      {
+        "id": "ruleset_reddit",
+        "enabled": true,
+        "path": "rules-reddit.json"
       }
     ]
   }
